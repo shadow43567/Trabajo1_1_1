@@ -8,7 +8,7 @@
     width: 1000px;
     margin: 20px auto;
     border: 1px solid #222;
-    background: #141414 url(../img/menu_bg.jpg) repeat-x top;
+    background: #141414 url(assets/IMG/imagen\ de\ fondo.jpg) repeat-x top;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
@@ -174,8 +174,6 @@
 
 
 
-.sidebar_menu {}
-
 .sidebar_menu li {padding: 10px 5px; border-bottom: 1px dotted #999}
 
 
@@ -197,7 +195,6 @@
 
 #menu3 li a {    
 -moz-border-bottom-colors: none;
--moz-border-image: none;
 -moz-border-left-colors: none;
 -moz-border-right-colors: none;
 -moz-border-top-colors: none;

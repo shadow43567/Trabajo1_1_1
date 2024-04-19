@@ -6,8 +6,8 @@ body {
     color: #212529; /* Color de texto predeterminado */
     background-image: url('assetes/IMG/321.jpg'); /* Agregar imagen de fondo */
     background-size: cover; /* Ajustar imagen al tamaño de la pantalla */
-    background-position: center; /* Centrar la imagen */
-    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 /* Estilos para la barra de navegación */
@@ -31,12 +31,12 @@ body {
 
 /* Estilos para el fondo separador */
 .separador {
-    background-color: #ffffff; /* Color de fondo de la barra separadora */
-    padding: 40px 0; /* Espaciado interno */
-    text-align: center; /* Centrar el contenido */
-    color: #212529; /* Color de texto */
-    position: absolute; /* Posicionamiento absoluto */
-    bottom: 0; /* Colocar en la parte inferior */
-    left: 0; /* Alinear a la izquierda */
-    width: 100%; /* Ocupar todo el ancho */
+    background-color: #0e0303; 
+    padding: 40px 0; 
+    text-align: center; 
+    color: #212529; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
 }

@@ -1,8 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /* Reemplaza 'url' y 'ruta_a_la_imagen' con la URL o la ruta relativa a la imagen de fondo */
-    background-image: url('assetes/IMG/321.jpg'); 
+    background-image: url('assets/IMG/321.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,11 +40,11 @@ body {
 
 /* Establecer un tamaño fijo para las imágenes dentro de las tarjetas */
 .card-img-top {
-    height: 200px; /* Altura fija para todas las imágenes */
-    object-fit: cover; /* Cubrir el contenedor manteniendo la relación de aspecto */
+    height: 200px; 
+    object-fit: cover;
 }
-/* Estilos para la barra de navegación */
+
 .barra-interaccion {
     background-color: #000; /* Color de fondo negro */
-    /* Otros estilos que desees aplicar */
+  
 }

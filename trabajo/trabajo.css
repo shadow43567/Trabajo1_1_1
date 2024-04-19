@@ -1,0 +1,42 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #212529; /* Color de texto predeterminado */
+    background-image: url('assetes/IMG/321.jpg'); /* Agregar imagen de fondo */
+    background-size: cover; /* Ajustar imagen al tamaño de la pantalla */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+}
+
+/* Estilos para la barra de navegación */
+.barra-interaccion {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+.btn-primary,
+.btn-success {
+    font-size: 18px;
+}
+
+/* Estilos para el fondo separador */
+.separador {
+    background-color: #ffffff; /* Color de fondo de la barra separadora */
+    padding: 40px 0; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido */
+    color: #212529; /* Color de texto */
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 0; /* Colocar en la parte inferior */
+    left: 0; /* Alinear a la izquierda */
+    width: 100%; /* Ocupar todo el ancho */
+}

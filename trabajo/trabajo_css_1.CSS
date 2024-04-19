@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* Reemplaza 'url' y 'ruta_a_la_imagen' con la URL o la ruta relativa a la imagen de fondo */
+    background-image: url('assetes/IMG/321.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.barra-interaccion {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+.btn-primary {
+    font-size: 18px;
+}
+
+.btn-success {
+    font-size: 18px;
+}
+
+/* Estilos para el fondo separador */
+.separador {
+    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con transparencia */
+    padding: 40px 0; /* Espacio alrededor del contenido */
+    text-align: center; /* Centra el contenido */
+    color: #000; /* Color de texto */
+}
+
+/* Establecer un tamaño fijo para las imágenes dentro de las tarjetas */
+.card-img-top {
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Cubrir el contenedor manteniendo la relación de aspecto */
+}
+/* Estilos para la barra de navegación */
+.barra-interaccion {
+    background-color: #000; /* Color de fondo negro */
+    /* Otros estilos que desees aplicar */
+}

@@ -224,3 +224,40 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endC
 -webkit-box-shadow: 0 0 6px #cccccc;
 -moz-box-shadow: 0 0 6px #cccccc;
 box-shadow: 0 0 6px #cccccc}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 10px 0; /* Reduce el espacio alrededor del contenido */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en filas */
+    justify-content: space-between;
+}
+
+.social-media,
+.about-us,
+.contact-info,
+.legal-info {
+    flex-basis: 22%; /* Reduce el tamaño de cada sección */
+    margin-bottom: 10px; /* Añade un pequeño espacio entre cada sección */
+}
+
+.footer-content h4 {
+    font-size: 16px; /* Reduce el tamaño del título */
+}
+
+.footer-content p {
+    font-size: 14px; /* Reduce el tamaño del texto */
+}
+
+.footer-content .separator {
+    display: none; /* Oculta el separador entre enlaces */
+}

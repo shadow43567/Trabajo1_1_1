@@ -1,48 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
 body {
-    background-image: url(assets/IMG/maxresdefault.jpg); 
+    display: flex;
+    flex-direction: column;
+    background-image: url('assets/IMG/maxresdefault.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+main {
+    flex: 1;
+}
 
-.barra-interaccion {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px 20px;
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-content div {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-content a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 .navbar-brand {
     font-size: 24px;
+    font-weight: bold;
+    color: #fff !important;
 }
 
 .navbar-nav .nav-link {
     font-size: 18px;
+    color: #fff !important;
 }
 
-.btn-primary {
+.navbar-nav .nav-link:hover {
+    color: #ddd !important;
+}
+
+.btn-primary, .btn-success {
     font-size: 18px;
 }
 
-.btn-success {
-    font-size: 18px;
-}
-
-/* Estilos para el fondo separador */
-.separador {
-    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con transparencia */
-    padding: 40px 0; /* Espacio alrededor del contenido */
-    text-align: center; /* Centra el contenido */
-    color: #000; /* Color de texto */
-}
-
-/* Establecer un tamaño fijo para las imágenes dentro de las tarjetas */
-.card-img-top {
-    height: 200px; 
-    object-fit: cover;
-}
-
-.barra-interaccion {
-    background-color: #000; /* Color de fondo negro */
-  
+.modal-header, .modal-footer {
+    border: none;
 }

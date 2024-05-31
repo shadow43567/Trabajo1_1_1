@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const apiKey = 'YOUR_CARSXE_API_KEY';  // Reemplaza con tu clave de API de CarsXE
-
+    const apiKey = 'falta api :v'; 
     function getCarData() {
         fetch('https://api.carsxe.com/vehicle-images?api_key=' + apiKey + '&make=chevrolet&model=equinox&year=2018&color=white&angle=side', {
             method: 'GET',
@@ -26,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function displayCars(images) {
         let carCards = document.getElementById('car-cards');
-        carCards.innerHTML = '';  // Limpiar contenido previo
+        carCards.innerHTML = '';  
         images.forEach(image => {
             let carCard = `
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">

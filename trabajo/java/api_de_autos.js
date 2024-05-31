@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const apiKey = 'YOUR_API_KEY';  // Reemplaza con tu clave de API de CarsXE
+    const apiKey = 'YOUR_API_KEY';  
 
     function getCarData() {
         fetch(`https://api.carsxe.com/vehicle-images?api_key=${apiKey}&make=chevrolet&model=equinox&year=2018&color=white&angle=side`, {

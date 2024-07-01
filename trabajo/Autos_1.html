@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Carreras</title>
+    <link rel="stylesheet" href="trabajo_css_1.CSS">
+    <link rel="stylesheet" href="css/estilo_auto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-xxx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-xxx" crossorigin="anonymous">
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .social-media ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .social-media ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social-media ul li:last-child {
+            margin-right: 0;
+        }
+
+        .social-media ul li a {
+            color: #333; /* Color de los iconos */
+            font-size: 20px; /* Tamaño de los iconos */
+        }
+
+        .about-us,
+        .contact-info,
+        .legal-info {
+            flex-basis: 30%;
+        }
+
+        .separator {
+            margin: 0 5px; /* Espacio entre el separador y los enlaces */
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-size: 18px;
+        }
+
+        .card-text {
+            font-size: 14px;
+        }
+
+        .card-img-top {
+            height: 200px; /* Altura de la imagen */
+            object-fit: cover; /* Ajuste de la imagen */
+        }
+
+        .modelo-img {
+            height: 150px; /* Altura de la imagen del modelo */
+            object-fit: cover; /* Ajuste de la imagen del modelo */
+            margin-bottom: 10px;
+        }
+    </style>
+</head> 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark barra-interaccion">
+        <div class="container">
+            <a class="navbar-brand " href="Inicio.HTML">Autos del Mar </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Compras Lista</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catálogo</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a class="btn" href="pagina_registro.html"><button>Crear usuario</button></a>
+                <button type="button" class="btn btn-success" >Ingresar</button>
+            </div>
+        </div>
+    </nav>
+        <!-- Foto grande con información -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <img src="assets/IMG/hammer.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Auto modelo Hummer</h5>
+                        <p class="card-text">El Hummer es un SUV robusto y versátil que ha sido una opción popular para aquellos que buscan un vehículo resistente y capaz. Con un diseño imponente y una gran presencia en la carretera, el Hammer es conocido por su capacidad todoterreno y su capacidad para maniobrar en una variedad de condiciones difíciles. Equipado con potentes motores y una suspensión diseñada para enfrentar terrenos accidentados, el Hammer ofrece un rendimiento excepcional tanto en carretera como fuera de ella. Además de su resistencia, el Hammer también ofrece un interior espacioso y cómodo, con características modernas y tecnología avanzada para una experiencia de conducción más placentera. En resumen, el Hammer es una opción ideal para aquellos que buscan un vehículo que pueda llevarlos a cualquier parte con estilo y confianza.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modelos adicionales -->
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <img src="assets/IMG/modelohummer1.jpg" class="modelo-img card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hummer H1</h5>
+                        <p class="card-text">Se comercializó entre 1992 y 2006, y derivaba directamente del Humvee M998 militar. Estaba equipado con potentes motores V8 diésel y gasolina, y se ofrecía en versión SUV de cinco puertas, pick-up de dos puertas, carrocería de cuatro puertas y variante convertible con capota blanda.</p>
+                        <p class="card-text">Precio: $40,000</p>
+                        <a href="pagina_compras.html" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <img src="assets/IMG/modelohummer2.jpg" class="modelo-img card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hummer H2</h5>
+                        <p class="card-text">Se diseñó y fabricó bajo el paraguas de General Motors entre 2002 y 2009. Equipaba potentes motores V8 de 6.0 y 6.2 litros de capacidad con hasta 400 CV de potencia. El H2 supone un importante salto de calidad, con nuevos materiales, acabados, equipamiento y tecnología disponible. Estuvo disponible con carrocería de cuarto puertas y en versión camioneta de cuatro puertas denominado H2 SUT.</p>
+                        <p class="card-text">Precio: $50,000</p>
+                        <a href="pagina_compras.html" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <img src="assets/IMG/modelohummer3.jpg" class="modelo-img card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hummer H3</h5>
+                        <p class="card-text">Se trata del modelo más pequeño de la familia Hummer, disponible como SUV de cinco puertas o camioneta de cuatro puertas (H3T). Se comercializó entre 2005 y 2010. Estaba equipado con motores de cinco cilindros y 3.5 litros con 220 CV, de cinco cilindros y 3.7 litros con 240 CV, y con un V8 de 5.3 litros con 300 CV.</p>
+                        <p class="card-text">Precio: $60,000</p>
+                        <a href="pagina_compras.html" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fondo separador -->
+    <footer style="background-color: #f4f4f4; padding: 5px 0;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="flex: 1;">
+                    <h4 style="font-size: 14px;">Sobre Nosotros</h4>
+                    <p style="font-size: 12px;">Somos una empresa dedicada a la venta de autos de alta calidad y rendimiento.</p>
+                </div>
+                <div style="flex: 1; text-align: center;">
+                    <!-- Aquí irían los íconos o enlaces de redes sociales si decides agregarlos en el futuro -->
+                </div>
+                <div style="flex: 1; text-align: right;">
+                    <p style="font-size: 12px;">&copy; 2024 Auto Sales. <a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./java/validar.js"></script>
+</body>
+</html>
